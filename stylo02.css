@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: 'Akshar', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font: Akshar;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: black;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages4.alphacoders.com%2F913%2Fthumb-1920-913188.jpg&f=1&nofb=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Akshar', sans-serif;
+    font-size:larger;
+} 
+
+
+#flex-container{
+    background-color: white;
+    margin:auto;
+    margin-top: 8%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+cite{
+    font-size: .5em
+}
+h3{
+    letter-spacing: 2;
+}
